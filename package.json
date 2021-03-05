@@ -1,11 +1,16 @@
 {
   "name": "Liszt",
   "version": "2.0.0",
+  
   "main": "server/index.js",
   "license": "MIT",
   "keywords": [
     "fullstack"
   ],
+  "engines": {
+    "node": "14.15.1"
+  },
+  
   "scripts": {
     "start": "node server",
     "test": "jest --verbose",
